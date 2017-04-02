@@ -1,0 +1,49 @@
+*{
+  box-sizing:border-box;
+}
+
+body {
+  background-image: url(../images/Question-Marks.jpg);
+  font-family: 'open sans', sans-serif;
+}
+
+.start-game{
+  background: #fff;
+  margin: 20% auto;
+  max-width: 30%;
+}
+
+input.btn[type="submit"] {
+  background: #D2232A;
+  border-radius: 3%;
+  color: #FEF200;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0px 5px 0px;
+  outline: medium none;
+  overflow: hidden;
+  padding: 2% 25% 2% 25%;
+  width: 100%;
+}
+
+input.btn[type="submit"]:hover {
+  background: #D1A000;
+}
+
+@media (max-width: 720px){
+  .start-game{
+  margin: 20% auto;
+  max-width: 20%;
+}
+
+  input.btn[type="submit"] {
+
+  font-size: 10px;
+  font-weight: bold;
+  }
+}
+
+
+
+ 
